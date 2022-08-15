@@ -12,7 +12,7 @@
 	Modify the aoi list to include the district which you wish to download and the year list to include
 	the years over which you wish to download the images
 	Press Run
-	To avoid run and confirm for all districts for all the years: paste this helpler [script](batch_executin_gee.txt) in console on chrome. After pasting both the functions in the console, write runTaskList() in the console to run all the tasks, wait for sometime before the confirmation window pops up, then write ConfirmAll(); in the console to confirm all the tasks.
+	To avoid run and confirm for all districts for all the years: paste this helpler [script](batch_executing_gee.txt) in console on chrome. After pasting both the functions in the console, write runTaskList() in the console to run all the tasks, wait for sometime before the confirmation window pops up, then write ConfirmAll(); in the console to confirm all the tasks.
 	After this step, the images of districts in .tif format will be exported to google drive with names: Landsat7_dist_name. 
 
 3. **Cutting villages from the images of districts**
