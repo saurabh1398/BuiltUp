@@ -15,8 +15,8 @@ do
 	count=$((count+1))
 	echo "Village No: $count"
 	file2="${file// /}"
-	file3="${file##*/}"
-	file3="$dist1""/""$file3"
+	file3="${file2##*/}"
+	file3="${dist1##*/}""/"$file3 
 
 	echo "Processing Village: $file2"
 	python3 "$cwd""/src/LC_classification/final_classification_processing.py" $file2 $file3
