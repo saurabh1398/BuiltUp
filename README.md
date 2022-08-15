@@ -22,7 +22,7 @@
     Ex: ```./generate.sh "Gujarat" "GJ.geojson" "gujarat.txt"```
 	
     - Cutting the district images: 
-    Upload the [script] (/src/cut_vills_from_dist.ipynb) on google colab, upload the .geojson files of the districts generated in previous step that you wish to analyze and select run-all.
+    Upload the [script](/src/cut_vills_from_dist.ipynb) on google colab, upload the .geojson files of the districts generated in previous step that you wish to analyze and select run-all.
 	
     After this step, on the google drive, for each district a Folder with name Villages will be created that contains the .tif images of the villages present in the district. Download the folder for each district in /data/IndiaSat.
 
